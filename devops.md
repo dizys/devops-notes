@@ -114,15 +114,15 @@ The microservice architectural style is an approach to developing a single appli
 
 #### Design for Failure
 
-* Embrace failures: they will happen! Move from "How to avoid" —> "How to identify & what to do about it". Move from  "Pure operational concern" —> "developer concern".
-* &#x20;External calls to other services that you don’t control are especially prone to problems:
+* Embrace failures: they will happen! Move from "How to avoid" —> "How to identify & what to do about it". Move from "Pure operational concern" —> "developer concern".
+* External calls to other services that you don’t control are especially prone to problems:
   * Use separate thread pools
   * Time out quickly
 * Circuit breaker pattern: identify problem and do something about it to avoid cascading failures
 * Bulkhead pattern: Isolation from start to limit scope of failure (separate thread pools)
 * Monkey testing: test by breaking (yes, on purpose! see: Netflix Chaos Monkey and Simian Army)
 
-#### &#x20;Think Continuous Automation
+#### Think Continuous Automation
 
 Automation is speed + repeatability.
 
@@ -199,12 +199,12 @@ Named after the US industrial engineer Frederick Winslow Taylor (1856-1915) who 
 
 * Blue-green deployment is a zero-downtime deployment technique that consists of two nearly identical production environments, called Blue and Green.
 * They differ by the artifacts that the developer has intentionally changed, typically by the version of the application. At any given time, at least one of the environments is active.
-* Using the blue-green deployment technique, you can realize the following benefits:&#x20;
+* Using the blue-green deployment technique, you can realize the following benefits:
   * Take software quickly from the final stage of testing to live production.
   * Deploy a new version of an application without disrupting traffic to the application.
   * Rollback rapidly. If there is something wrong with one of your environments, you can quickly switch to the other environment.
 
-### &#x20;Spotify Case Study
+### Spotify Case Study
 
 #### Organizational Structure
 
@@ -225,8 +225,6 @@ Named after the US industrial engineer Frederick Winslow Taylor (1856-1915) who 
 ### DevOps Organizational Objective
 
 Shared Consciousness with Distributed (local) Control
-
-
 
 ### Actions v.s. Consequences: Functional Silos Breed Bad Behavior
 
@@ -253,7 +251,7 @@ Metrics:
   * It currently requires six team members 10 hours to deploy a new release of our product.
   * This costs us $X for every release
 * Metric **GOALS** allow you to reason about these numbers and judge the success of your transition process:
-  * Reduce deployment time from 10 hours to 2 hours.&#x20;
+  * Reduce deployment time from 10 hours to 2 hours.
   * Increase percentage of defects detected in testing from 25% to 50%
 
 #### Actionable Metric Examples
@@ -261,11 +259,9 @@ Metrics:
 * Reduce time-to-market for new features.
 * Increase overall availability of the product.
 * Reduce the time it takes to deploy a software release.
-* Increase the percentage of defects detected in testing before 
-production release.
+* Increase the percentage of defects detected in testing before production release.
 * Make more efficient use of hardware infrastructure.
-* Provide performance and user feedback to the product manager in a 
-more timely manner
+* Provide performance and user feedback to the product manager in a more timely manner
 
 #### Top 4 Actionable Metric
 
@@ -276,18 +272,18 @@ more timely manner
 
 #### Culture Measurements
 
-- On my team information is actively sought
-- On my team failures are learning opportunities and messengers of them are not punished
-- On my team responsibilities are shared
-- On my team cross functional collaboration is encouraged and rewarded
-- On my team failure causes inquiry
-- On my team new ideas are welcomed
+* On my team information is actively sought
+* On my team failures are learning opportunities and messengers of them are not punished
+* On my team responsibilities are shared
+* On my team cross functional collaboration is encouraged and rewarded
+* On my team failure causes inquiry
+* On my team new ideas are welcomed
 
 #### Key metric: Cycle Time
 
-- Cycle time is a key metric for Agile kanban teams.
-- Cycle time is the amount of time it takes for a unit of work to travel through the team’s workflow–from the moment work starts to the moment it ships. 
-- By optimizing cycle time, the team can confidently forecast the delivery of future work.
+* Cycle time is a key metric for Agile kanban teams.
+* Cycle time is the amount of time it takes for a unit of work to travel through the team’s workflow–from the moment work starts to the moment it ships.
+* By optimizing cycle time, the team can confidently forecast the delivery of future work.
 
 #### Keys to High Performance
 
@@ -299,22 +295,27 @@ You MUST do all three:
 
 ### Busted DevOps Myths
 
-- You cannot buy DevOps In-A-Box
-- You cannot order 20 units of DevOps for this quarter
-- You cannot sprinkle DevOps on something to make it better
-- You cannot become DevOps without changing your culture
-- You can’t change your companies culture just by adopting new tools …but they can help reinforce it
-- Using Containers won't fix your broken culture
-- You cannot maintain your current organizational structure and become DevOps
+* You cannot buy DevOps In-A-Box
+* You cannot order 20 units of DevOps for this quarter
+* You cannot sprinkle DevOps on something to make it better
+* You cannot become DevOps without changing your culture
+* You can’t change your companies culture just by adopting new tools …but they can help reinforce it
+* Using Containers won't fix your broken culture
+* You cannot maintain your current organizational structure and become DevOps
 
 ### DevOps Summary
 
-- A Cultural Movement
-- Emphasizing Collaboration, Sharing, and Transparency
-- Promoting Automation and Infrastructure as Code
-- Achieving Continuous Integration and Delivery of Changes
-- Immutable Delivery
-- With One set of Metrics to rule them all
+* A Cultural Movement
+* Emphasizing Collaboration, Sharing, and Transparency
+* Promoting Automation and Infrastructure as Code
+* Achieving Continuous Integration and Delivery of Changes
+* Immutable Delivery
+* With One set of Metrics to rule them all
 
 #### DevOps Maturity Matrix
 
+| Maturity Level                    | People                                                                                                                     | Process                                                                                                 | Technology                                                                                                   |
+| --------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| <p>Level 1: </p><p>Ad Hoc</p>     | <ul><li>Silo based</li><li>Blame and finger-pointing</li><li>Dependent on experts</li><li>Lack of accountability</li></ul> | <ul><li>Manual processes</li><li>Tribal knowledge the norm</li><li>Unpredictable and reactive</li></ul> | <ul><li>Manual builds and deployments</li><li>Manual testing</li><li>Environmental inconsistencies</li></ul> |
+| <p>Level 2: </p><p>Repeatable</p> | <ul><li>Manual builds and deployments</li><li>Manual testing</li><li>Environmental inconsistencies</li></ul>               |                                                                                                         |                                                                                                              |
+|                                   |                                                                                                                            |                                                                                                         |                                                                                                              |
