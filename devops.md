@@ -256,5 +256,65 @@ Metrics:
   * Reduce deployment time from 10 hours to 2 hours.&#x20;
   * Increase percentage of defects detected in testing from 25% to 50%
 
-### Actionable Metric Examples
+#### Actionable Metric Examples
+
+* Reduce time-to-market for new features.
+* Increase overall availability of the product.
+* Reduce the time it takes to deploy a software release.
+* Increase the percentage of defects detected in testing before 
+production release.
+* Make more efficient use of hardware infrastructure.
+* Provide performance and user feedback to the product manager in a 
+more timely manner
+
+#### Top 4 Actionable Metric
+
+1. Mean Lead Time: How long does it take from idea to production?
+2. Release Frequency: How often can you deliver changes?
+3. Change Failure Rate: How often to changes fail?
+4. Mean Time to Recovery (MTTR): How quickly can you recover from failure?
+
+#### Culture Measurements
+
+- On my team information is actively sought
+- On my team failures are learning opportunities and messengers of them are not punished
+- On my team responsibilities are shared
+- On my team cross functional collaboration is encouraged and rewarded
+- On my team failure causes inquiry
+- On my team new ideas are welcomed
+
+#### Key metric: Cycle Time
+
+- Cycle time is a key metric for Agile kanban teams.
+- Cycle time is the amount of time it takes for a unit of work to travel through the team’s workflow–from the moment work starts to the moment it ships. 
+- By optimizing cycle time, the team can confidently forecast the delivery of future work.
+
+#### Keys to High Performance
+
+You MUST do all three:
+
+1. Technical Practices
+2. Lean Processes (Agile)
+3. Culture
+
+### Busted DevOps Myths
+
+- You cannot buy DevOps In-A-Box
+- You cannot order 20 units of DevOps for this quarter
+- You cannot sprinkle DevOps on something to make it better
+- You cannot become DevOps without changing your culture
+- You can’t change your companies culture just by adopting new tools …but they can help reinforce it
+- Using Containers won't fix your broken culture
+- You cannot maintain your current organizational structure and become DevOps
+
+### DevOps Summary
+
+- A Cultural Movement
+- Emphasizing Collaboration, Sharing, and Transparency
+- Promoting Automation and Infrastructure as Code
+- Achieving Continuous Integration and Delivery of Changes
+- Immutable Delivery
+- With One set of Metrics to rule them all
+
+#### DevOps Maturity Matrix
 
