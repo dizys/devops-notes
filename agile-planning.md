@@ -364,13 +364,13 @@ And this will be proven when <measurable condition>
 
 Where possible, the signal that is being measured should be an actionable metric and not a vanity metric
 
-# Technical Debt
+## Technical Debt
 
 Technical debt is anything you need to do that doesn't involve creating a new feature. Technical debt builds up when you take shortcuts.
 
 Examples of Technical Debt: Code refactoring, Setup and maintenance of environments, Changing technology like databases.
 
-# Sprint Planning
+## Sprint Planning
 
 Attendees: Product Owner, Scrum Master, Development Team
 
@@ -379,25 +379,49 @@ Attendees: Product Owner, Scrum Master, Development Team
 - The team Assigns work from the Product Backlog to the Sprint Milestone.
 - Plan to spend 4 hours for a 2 week sprint.
 
-## Steps for creating a Sprint Plan
+### Steps for creating a Sprint Plan
 
 1. Create a Milestone for the Sprint
 2. Assign Issues from the Backlog to the Milestone
 3. Filter ZenHub by the Milestone to work the plan
 
-## Sprint Planning Goals
+### Sprint Planning Goals
 
 - Each Sprint should have a clearly defined Business Goal.
 - The Product Owner comes with a proposal of the Sprint Goal and Product Backlog Items supporting it.
 - The whole Scrum Team collaborates on crafting the Sprint Goal, so everybody understands why we are building the Increment.
 
-## Mechanics of Sprint Planning
+### Mechanics of Sprint Planning
 
 - Take Issues from the top of the ranked Backlog and assign them to the Sprint Milestone
 - Groom the Story by clarifying and assigning Story Points, Labels, and making sure the story contain enough information for a developer to start working on it
 - Stop adding Stories when your team’s Velocity is reached
 
-## Team Velocity
+### Team Velocity
 
 The number of Story Points a team can complete in a single Sprint. This will change over time as the team gets better at estimating and better at executing. The Velocity is unique to the team because the story point assignment is unique to the team
 
+### Story Points
+
+- Story Points acknowledge the fact that sizing using absolute time-to-complete is highly inaccurate so it uses an estimate of complexity
+- It is measurement of a feature’s size **relative** to other features usually expressed in T-Shirt sized (S, M, L, X) or Fibonacci numbers (1, 2, 3, 5, 8, 13, 21)
+- The important thing is to agree on "average" and evaluate from that (i.e., is it the same, larger, or smaller than average)
+
+### A Story Point Measures...
+
+Effort, Complexity and Uncertainty.
+
+### What Size Should A User Story Be?
+
+- A Story should be small enough to be coded and tested within a single Sprint iteration — ideally just a few days
+- When a Story is too large in scope it is considered to be an **Epic**
+- Backlog items tend to start as Epics when they are lower priority and less defined
+- For sprint planning, Epics should be broken down into smaller stories, but not so small that you have moved into detailed design.
+
+### Epics
+
+- Epics are Stories that are so big, they need to be broken up into smaller Stories
+  - A single Story should be smaller than a Sprint
+  - Epics are usually larger than a Sprint
+- Epics are a way of grouping Stories with a common goal together
+- Epics can be larger than a Milestone
