@@ -60,14 +60,14 @@ While Agile improved the speed and accuracy of software for developers, it did n
 * [x] Cross-functional
 * [x] Self managing
 
-#### Working as an Agile Team
+### Working as an Agile Team
 
 * Iterative Sprints
 * Groomed Backlogs
 * Customer Stories
 * 2 Week Deliverables
 
-#### Agile Antipatterns
+### Agile Antipatterns
 
 You will fail if you...
 
@@ -78,20 +78,20 @@ You will fail if you...
 * If your teams siloed
 * If your teams are not self managing
 
-### The history reminds us that DevOps is:
+## The history reminds us that DevOps is:
 
 * From the practitioners, by practitioners
 * Not a product, specification, job title
 * An experience-based movement
 * Decentralized and open to all
 
-### Goal of DevOps is Agility
+## Goal of DevOps is Agility
 
 * Smart experimentation
 * Moving in-market with maximum velocity and minimum risk
 * Gaining quick valuable insight to continuously change the value proposition and quality
 
-### DevOps Thinking / Tenets
+## DevOps Thinking / Tenets
 
 * Social Coding
 * Behavior and Test Driven Development
@@ -99,7 +99,7 @@ You will fail if you...
 * Build **Minimum Viable Products** for gaining insights
 * Failure leads to understanding
 
-#### Think Cloud Native
+### Think Cloud Native
 
 * The Twelve-Factor App describes patterns for cloud-native architectures which leverage microservices
 * Applications are design as a collection of stateless microservices
@@ -108,11 +108,11 @@ You will fail if you...
 * Failing instances are killed and re-spawned, not debugged and patched (cattle not pets)
 * DevOps pipelines help manage continuous delivery of services
 
-#### Think Microservices
+### Think Microservices
 
 The microservice architectural style is an approach to developing a single application as a **suite of small services**, each **running in its own process** and communicating with lightweight mechanisms, often an HTTP resource API. These services are **built around business capabilities** and **independently deployable** by fully automated deployment machinery.
 
-#### Design for Failure
+### Design for Failure
 
 * Embrace failures: they will happen! Move from "How to avoid" —> "How to identify & what to do about it". Move from "Pure operational concern" —> "developer concern".
 * External calls to other services that you don’t control are especially prone to problems:
@@ -122,7 +122,7 @@ The microservice architectural style is an approach to developing a single appli
 * Bulkhead pattern: Isolation from start to limit scope of failure (separate thread pools)
 * Monkey testing: test by breaking (yes, on purpose! see: Netflix Chaos Monkey and Simian Army)
 
-#### Think Continuous Automation
+### Think Continuous Automation
 
 Automation is speed + repeatability.
 
@@ -133,14 +133,14 @@ Automation is speed + repeatability.
 * Failing Forward
 * Application Release Automation
 
-### Working DevOps
+## Working DevOps
 
 * Facilitate a culture of **teaming and collaboration**
 * Establish **agile development** as a shared discipline
 * **Automate relentlessly** to enable rapid DevOps response
 * Push **smaller releases faster**, measure and remediate impact
 
-### Taylorism
+## Taylorism
 
 Named after the US industrial engineer Frederick Winslow Taylor (1856-1915) who in his 1911 book 'Principles Of Scientific Management' laid down the fundamental principles of large-scale manufacturing through **assembly-line** factories.
 
