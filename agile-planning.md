@@ -263,6 +263,19 @@ Every Sprint should have a Goal this way everyone knows what goal they are worki
 
 ![The 5 Scum Meetings](.gitbook/assets/image.png)
 
+### Backlog Refinement Meeting
+
+* Product Owner sorts the Product Backlog in Priority Order to meet business objectives
+* The team may estimate the amount of effort they would expend to complete items in the Product Backlog and provides other technical information to help the Product Owner prioritize them
+* Large vague items are split and clarified, considering both business and technical concerns
+  * Sometimes a subset of the team, in conjunction with the Product Owner and other stakeholders, will compose and split Product Backlog Items before involving the entire team in estimation
+
+### Grooming the Backlog
+
+* Make sure that all Issues are groomed and stories are complete
+* Keep the Backlog ranked by priority so that the important Issues are always on top: The priority is determined by the "**So that**" benefit statement
+* Size the Issues if possible or leave to Sprint Planning
+
 ## Agile Concepts and GitHub
 
 * Sprint -> Milestone
@@ -271,4 +284,30 @@ Every Sprint should have a Goal this way everyone knows what goal they are worki
 * Tasks -> Markdown Checklist (`- [ ]`)
 * Product backlog -> Open issues without a Milestone
 * Sprint backlog --> Issues with a Milestone
+
+## Fixed Releases are deprecated
+
+* **Raionale**: risk == number of engineering hours since last deployement. (i.e., less hours == less risk)
+* **Bottom line**: Feature deployment should be a **non-event** that happens all the time.
+
+# GitHub Issues
+
+Issues are the way GitHub tracks things to do.
+
+* They could be **Features Requests**
+* They could be **User Stories**
+* They could be **Bug Reports**
+* They could be just about anything you need them to be
+
+# What are User Stories?
+
+A user story represents a small piece of business value that a team can deliver in an iteration.
+
+While traditional requirements (like use cases) try to be as detailed as possible, a user story is defined incrementally, in three stages:
+
+1. The brief description of the need
+2. The conversations that happen during backlog grooming and iteration planning to solidify the details
+3. The tests that confirm the story's satisfactory completion
+
+## INVEST acronym criteria
 
