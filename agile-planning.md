@@ -270,6 +270,15 @@ Every Sprint should have a Goal this way everyone knows what goal they are worki
 - Large vague items are split and clarified, considering both business and technical concerns
   - Sometimes a subset of the team, in conjunction with the Product Owner and other stakeholders, will compose and split Product Backlog Items before involving the entire team in estimation
 
+### Mechanics of Backlog Refinement
+
+- Goal: At the end of Backlog Refinement the New Issues column is empty
+- Take Stories from New Issues and:
+  - Move them into the ranked Backlog if they will be worked on soon
+  - Move them into the Ice Box if they are a good idea but not now
+  - Reject them if they are not where you want to go
+- Groom the Backlog by ranking the Stories in order of importance and making sure the story contains enough information for a developer to start working on it
+
 ### Grooming the Backlog
 
 - Make sure that all Issues are groomed and stories are complete
@@ -310,3 +319,85 @@ While traditional requirements (like use cases) try to be as detailed as possibl
 3. The tests that confirm the story's satisfactory completion
 
 ### INVEST acronym criteria
+
+| Criterion       | Remark                                                                                                                                                            |
+| --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **I**ndependent | We want to be able to develop in any sequence                                                                                                                     |
+| **N**egotiable  | Avoid too much detail; keep them flexible so the team can adjust how much of the story to implement                                                               |
+| **V**aluable    | Users or customers get some value from the story                                                                                                                  |
+| **E**stimable   | The team must be able to use them for planning                                                                                                                    |
+| **S**mall       | Large stories are harder to estimate and plan. By the time of iteration planning, the story should be able to be designed, coded, and tested within the iteration |
+| **T**estable    | Document acceptance criteria, or the definition of done for the story, which lead to test cases                                                                   |
+
+### Story Driven Development
+
+- User Stories document a persona requesting a function to achieve a goal
+- The typical form is as follows:
+
+```
+As a <some role>
+I need <some function>
+So that <I get some benefit>
+```
+
+- User Stories can be entered into GitHub as **Issues**
+
+### Define Done / Acceptance Criteria
+
+I like to include the following in each User Story:
+
+- **Assumptions**: List any assumptions about how to implement the Story
+- **Acceptance Criteria**: Define what it means to be "done"
+
+### Hypothesis Driven Development
+
+Hypotheses pair a statement that asserts or predicts value with a testable condition that
+can be measured.
+
+The typical form is as follows:
+
+```
+We believe that <function>
+Will lead to <outcome>
+And this will be proven when <measurable condition>
+```
+
+Where possible, the signal that is being measured should be an actionable metric and not a vanity metric
+
+# Technical Debt
+
+Technical debt is anything you need to do that doesn't involve creating a new feature. Technical debt builds up when you take shortcuts.
+
+Examples of Technical Debt: Code refactoring, Setup and maintenance of environments, Changing technology like databases.
+
+# Sprint Planning
+
+Attendees: Product Owner, Scrum Master, Development Team
+
+- The Product Owner is responsible for declaring which Product Backlog Items are the most important to the business during Backlog Refinement.
+- The Development Team looks at the latest product Increment, projected velocity, and past performance. Based on the data, the Development Team forecast what can be achieved.
+- The team Assigns work from the Product Backlog to the Sprint Milestone.
+- Plan to spend 4 hours for a 2 week sprint.
+
+## Steps for creating a Sprint Plan
+
+1. Create a Milestone for the Sprint
+2. Assign Issues from the Backlog to the Milestone
+3. Filter ZenHub by the Milestone to work the plan
+
+## Sprint Planning Goals
+
+- Each Sprint should have a clearly defined Business Goal.
+- The Product Owner comes with a proposal of the Sprint Goal and Product Backlog Items supporting it.
+- The whole Scrum Team collaborates on crafting the Sprint Goal, so everybody understands why we are building the Increment.
+
+## Mechanics of Sprint Planning
+
+- Take Issues from the top of the ranked Backlog and assign them to the Sprint Milestone
+- Groom the Story by clarifying and assigning Story Points, Labels, and making sure the story contain enough information for a developer to start working on it
+- Stop adding Stories when your team’s Velocity is reached
+
+## Team Velocity
+
+The number of Story Points a team can complete in a single Sprint. This will change over time as the team gets better at estimating and better at executing. The Velocity is unique to the team because the story point assignment is unique to the team
+
