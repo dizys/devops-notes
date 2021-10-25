@@ -290,7 +290,7 @@ Every Sprint should have a Goal this way everyone knows what goal they are worki
 * **Raionale**: risk == number of engineering hours since last deployement. (i.e., less hours == less risk)
 * **Bottom line**: Feature deployment should be a **non-event** that happens all the time.
 
-# GitHub Issues
+## GitHub Issues
 
 Issues are the way GitHub tracks things to do.
 
@@ -299,7 +299,7 @@ Issues are the way GitHub tracks things to do.
 * They could be **Bug Reports**
 * They could be just about anything you need them to be
 
-# What are User Stories?
+## What are User Stories?
 
 A user story represents a small piece of business value that a team can deliver in an iteration.
 
@@ -309,5 +309,6 @@ While traditional requirements (like use cases) try to be as detailed as possibl
 2. The conversations that happen during backlog grooming and iteration planning to solidify the details
 3. The tests that confirm the story's satisfactory completion
 
-## INVEST acronym criteria
+### INVEST acronym criteria
+
 
