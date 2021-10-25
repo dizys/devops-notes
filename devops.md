@@ -105,7 +105,7 @@ You will fail if you...
 - An experience-based movement
 - Decentralized and open to all
 
-## Goal of DevOps is Agility
+## Goal of Microservice is Agility
 
 - Smart experimentation
 - Moving in-market with maximum velocity and minimum risk
