@@ -12,99 +12,99 @@ description: Social Coding with GitHub
 
 ## Source Code Management
 
-* Source Code Management is the practice of tracking versions of source code as it is being developed.&#x20;
-* A source code manager (SCM) is a software tool used by teams of programmers to manage source code
-* These are also referred to as Version Control Systems (VCS)
-* SCMs can be Centralized or Distribute
+- Source Code Management is the practice of tracking versions of source code as it is being developed.&#x20;
+- A source code manager (SCM) is a software tool used by teams of programmers to manage source code
+- These are also referred to as Version Control Systems (VCS)
+- SCMs can be Centralized or Distribute
 
 ### Distributed or Centralized
 
-* Distributed revision control (DRCS) takes a peer-to-peer approach, as opposed to the client-server approach of centralized systems
-* Rather than a single, central repository on which clients synchronize, each peer’s working copy of the codebase is a bona-fide repository
-* Distributed revision control conducts synchronization by exchanging patches (change-sets) from peer to peer
+- Distributed revision control (DRCS) takes a peer-to-peer approach, as opposed to the client-server approach of centralized systems
+- Rather than a single, central repository on which clients synchronize, each peer’s working copy of the codebase is a bona-fide repository
+- Distributed revision control conducts synchronization by exchanging patches (change-sets) from peer to peer
 
 ### Decentralized systems
 
-* No canonical, reference copy of the codebase exists by default; only working copies.
-* Common operations (such as commits, viewing history, and reverting changes) are fast, because there is no need to communicate with a central server.
-* Communication is only necessary when pushing or pulling changes to or from other peers.
-* Each working copy effectively functions as a remote backup of the codebase and of its change-history, providing natural protection against data loss.
+- No canonical, reference copy of the codebase exists by default; only working copies.
+- Common operations (such as commits, viewing history, and reverting changes) are fast, because there is no need to communicate with a central server.
+- Communication is only necessary when pushing or pulling changes to or from other peers.
+- Each working copy effectively functions as a remote backup of the codebase and of its change-history, providing natural protection against data loss.
 
 ### Git: Decentralized SCM System
 
-* A distributed source code management (SCM) tool invented by Linus Torvalds in 2005 for Linux kernel development
-* Code is kept in a repository and every developer has a full copy
-* Works locally without any server
-* Works remotely with GitHub, GitLab, & BitBucket
+- A distributed source code management (SCM) tool invented by Linus Torvalds in 2005 for Linux kernel development
+- Code is kept in a repository and every developer has a full copy
+- Works locally without any server
+- Works remotely with GitHub, GitLab, & BitBucket
 
 ### GitHub: A website that hosts git repositories
 
-* A web site that hosts git repositories
-* Founded in 2007, has 40 million registered developers and was acquired by Microsoft for a whopping $7.5 billion in 2018
-* Free and Paid accounts
-* Adds ability to track Issues and Bugs
-* Provides webhooks to integrate other tools
+- A web site that hosts git repositories
+- Founded in 2007, has 40 million registered developers and was acquired by Microsoft for a whopping $7.5 billion in 2018
+- Free and Paid accounts
+- Adds ability to track Issues and Bugs
+- Provides webhooks to integrate other tools
 
 ## Why You Need to Know Git?
 
-* The use of Git and software code repositories has fundamentally changed the way enterprises do software development for proprietary code and open source code alike.
-* In addition, open source software has blossomed because some of the Git repositories host open source code for free.
-* Most significantly, Git and code repositories have facilitated the DevOps methodology that is so impactful to software development.
+- The use of Git and software code repositories has fundamentally changed the way enterprises do software development for proprietary code and open source code alike.
+- In addition, open source software has blossomed because some of the Git repositories host open source code for free.
+- Most significantly, Git and code repositories have facilitated the DevOps methodology that is so impactful to software development.
 
 ![Git Command Workflow](<.gitbook/assets/image (2) (1).png>)
 
 ## What is Social Coding?
 
-* In the past developers worked on **private** repositories and you had to be a member of the team to contribute
-* With Social Coding, repositories are **public** and everyone is encouraged to Fork the code and contribute
-* You would think that anarchy would ensue but it actually works quite well because it is controlled by the repository owner
+- In the past developers worked on **private** repositories and you had to be a member of the team to contribute
+- With Social Coding, repositories are **public** and everyone is encouraged to Fork the code and contribute
+- You would think that anarchy would ensue but it actually works quite well because it is controlled by the repository owner
 
 ### Code Reuse Dilemma
 
-* You see a project that is 80% of what you need but there are some missing features
-* You feel that if you make a feature request of the project owner, your request will be at the bottom of their priorities (If they get funding cuts, you know that your feature request will be cut)
-* So you rebuild 100% of what you need so as not to have a dependency on another project
+- You see a project that is 80% of what you need but there are some missing features
+- You feel that if you make a feature request of the project owner, your request will be at the bottom of their priorities (If they get funding cuts, you know that your feature request will be cut)
+- So you rebuild 100% of what you need so as not to have a dependency on another project
 
 ### Social Coding Solution
 
-* Discuss the new feature with the repo owner and agree to develop it
-* Open an **Issue** and assign it to yourself so that everyone knows what you are working on
-* **Fork** the code, create a **branch**, and make your changes
-* Issue a **Pull Request** when you are ready to review and merge your work back into the main project
+- Discuss the new feature with the repo owner and agree to develop it
+- Open an **Issue** and assign it to yourself so that everyone knows what you are working on
+- **Fork** the code, create a **branch**, and make your changes
+- Issue a **Pull Request** when you are ready to review and merge your work back into the main project
 
 ## GitHub Is A DevOps Enabler
 
-* [x] Open Culture: Forking and Pull Requests enable openness
-* [x] Emphasize Collaboration and Sharing (no Silos): Issues and Comments invite Collaboration and Planning
-* [x] Infrastructure as Code: Git the the perfect place to store all of your infrastructure scripts
-* [x] Automate Everything: Git works well with Travis CI, Jenkins, and other automation tools
+- [x] Open Culture: Forking and Pull Requests enable openness
+- [x] Emphasize Collaboration and Sharing (no Silos): Issues and Comments invite Collaboration and Planning
+- [x] Infrastructure as Code: Git the the perfect place to store all of your infrastructure scripts
+- [x] Automate Everything: Git works well with Travis CI, Jenkins, and other automation tools
 
 ## Git Overview
 
 Brief introduction [up here](social-coding.md#git-decentralized-scm-system).
 
-* Git works well with Travis CI, Jenkins, and other automation tools
-* Developers work in their own BRANCHES (even in FORKS)
-* The MASTER branch should always be ready to deploy
-* PULL REQUESTS are used to MERGE code BRANCHES into MASTER
+- Git works well with Travis CI, Jenkins, and other automation tools
+- Developers work in their own BRANCHES (even in FORKS)
+- The MASTER branch should always be ready to deploy
+- PULL REQUESTS are used to MERGE code BRANCHES into MASTER
 
 ### Detailed Feature Branch Workflow
 
-* CLONE a Repository (FORK first if not part of Dev Team)
-* Assign the ISSUE for your work to yourself and place it in working status
-* Create a BRANCH to work on an ISSUE
-* Run the Test suite to make sure you can run the code
-* Make changes to code and test cases and COMMIT to local BRANCH
-* Run the Test suite early and often to make sure you didn’t break anything
-* PUSH changes to remote BRANCH
-* Did we mention testing the code early and often?
-* Create PULL REQUEST when all tests pass and code is ready for review / MERGE
+- CLONE a Repository (FORK first if not part of Dev Team)
+- Assign the ISSUE for your work to yourself and place it in working status
+- Create a BRANCH to work on an ISSUE
+- Run the Test suite to make sure you can run the code
+- Make changes to code and test cases and COMMIT to local BRANCH
+- Run the Test suite early and often to make sure you didn’t break anything
+- PUSH changes to remote BRANCH
+- Did we mention testing the code early and often?
+- Create PULL REQUEST when all tests pass and code is ready for review / MERGE
 
 ### Why is Testing So Important?
 
-* Automated testing must pass before your Pull Request will be accepted
-* Automated testing is your guarantee that you didn’t break anything
-* Without automated testing you cannot fully automate the DevOps pipeline
+- Automated testing must pass before your Pull Request will be accepted
+- Automated testing is your guarantee that you didn’t break anything
+- Without automated testing you cannot fully automate the DevOps pipeline
 
 ## Guidelines for Contributing: \`CONTRIBUTION.md\`
 
@@ -114,16 +114,16 @@ As you can imagine, with outside contributors there must be coding standards. Us
 
 ## Issues: Tacking What You Do
 
-* When a Pull Request is made, you should also check that the standards have been followed
-* ISSUES can be features or defects or pull requests or …
-* You should not be working on code without an open ISSUE
-* You should not be working on code without an open ISSUE
+- When a Pull Request is made, you should also check that the standards have been followed
+- ISSUES can be features or defects or pull requests or …
+- You should not be working on code without an open ISSUE
+- You should not be working on code without an open ISSUE
 
 ## Branches
 
-* Branching is a core concept in Git: Branching is a core concept in Git
-* The only rule: Anything in the **master**/**main** branch must always be deployable
-* It's extremely important that your new branch is created off of master when working on a feature or a fix
+- Branching is a core concept in Git: Branching is a core concept in Git
+- The only rule: Anything in the **master**/**main** branch must always be deployable
+- It's extremely important that your new branch is created off of master when working on a feature or a fix
 
 ## Pull Request Workflow
 
@@ -131,20 +131,20 @@ Use a PULL REQUEST to notify the team that you changes are ready to be reviewed 
 
 Benefits:
 
-* A second set of eyes: Sometimes you may have solved a problem, but when someone reviews it they pointed out a subtle flaw, or perhaps a way you could solve it more elegantly. It also helps identify things like security exposures. This results in a much cleaner codebase.
-* Knowledge sharing: It is dangerous to only have one developer that understands the code. Having another developer review the code allows for shared understanding and protects against one developer leaving the project.
-* Allows automation of unit testing: You setup your GitHub project to run unit tests on pull requests so that we can verify that everything works before merging.
+- A second set of eyes: Sometimes you may have solved a problem, but when someone reviews it they pointed out a subtle flaw, or perhaps a way you could solve it more elegantly. It also helps identify things like security exposures. This results in a much cleaner codebase.
+- Knowledge sharing: It is dangerous to only have one developer that understands the code. Having another developer review the code allows for shared understanding and protects against one developer leaving the project.
+- Allows automation of unit testing: You setup your GitHub project to run unit tests on pull requests so that we can verify that everything works before merging.
 
 ### Prepare for Pull Request
 
-* You want to make sure that you are using the latest code before you make a pull request
-* The remote master branch has probably moved on since you created your branch
-* Therefore it is necessary "rebase to" or "merge with" the current master
+- You want to make sure that you are using the latest code before you make a pull request
+- The remote master branch has probably moved on since you created your branch
+- Therefore it is necessary "rebase to" or "merge with" the current master
 
 ## Fetch vs Pull
 
-* Fetch will bring down all of the changes from the remote repository
-* Pull will merge the changes from the current branch with your local workspace
+- Fetch will bring down all of the changes from the remote repository
+- Pull will merge the changes from the current branch with your local workspace
 
 Note: Pull does a fetch so if you just want to pull there is no need to fetch.
 
@@ -160,16 +160,16 @@ Note: Pull does a fetch so if you just want to pull there is no need to fetch.
 
 If you have NOT pushed to a remote branch, you can use `reset` to go back to a previous commit. Reset rewinds the commits as if they never happened.
 
-* To get rid of the last two commits
+- To get rid of the last two commits
 
 ```bash
 git reset --soft HEAD~2
 git reset --hard master@{1}
 ```
 
-* `--soft` will undo the commit history and leave the files staged
-* `--mixed` will undo the history and the staging so the files are untracked (default)
-* `--hard` will undo and **delete** your files!
+- `--soft` will undo the commit history and leave the files staged
+- `--mixed` will undo the history and the staging so the files are untracked (default)
+- `--hard` will undo and **delete** your files!
 
 ### Revert: Rewind the Mistakes After Push
 
@@ -197,17 +197,17 @@ Git cannot merge code that has the **same line** of code changed in two **differ
 
 For pull requests, you should merge from the master branch first. If there were conflicts, they would appear in the current branch.&#x20;
 
-* Edit the file in conflict and commit. (If is during a rebase, you should `git rebase --continue`).
+- Edit the file in conflict and commit. (If is during a rebase, you should `git rebase --continue`).
 
 ```bash
 git commit -am "Fix: Resolve conflicts"
 ```
 
-* Then you can proceed to merge the pull requests into the master branch.
+- Then you can proceed to merge the pull requests into the master branch.
 
 ### Abort a Merge or Rebase
 
 Never leave a merge or rebase in an unfinished state!
 
-* For merge, you can abort it with: `git merge --abort`
-* For rebase, you can abort it with: `git rebase --abort`
+- For merge, you can abort it with: `git merge --abort`
+- For rebase, you can abort it with: `git rebase --abort`
