@@ -142,3 +142,21 @@ You will fail if you...
 * If you teams siloed
 * If your teams are not self managing
 
+## Transform to DevOps/Agile
+
+### Bad Formulas Leading to Failure
+
+* Product Manager becomes Product Owner
+* Project Manager becomes Scrum Master
+* Developers become Scrum Team
+
+### Comparing Traditional and DevOps/Agile Roles
+
+| Role             | Traditional IT                                                                                   | Role          | Agile IT                                                                                                                                                                            |
+| ---------------- | ------------------------------------------------------------------------------------------------ | ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Product Manager  | Business person who manages the budget and doesn't really need to be technical                   | Product Owner | Visionary that leads the team in a series of experiments design to achieve the goal. Conduit between the stakeholders and the team translating between business and technical goals |
+| Project Manager  | Task Master that keeps everyone marching to a fixed plan. Documents impediments as project risks | Scrum Master  | Coach that keeps the team focused on the current sprint and eliminating impediments while buffering team from interruptions                                                         |
+| Development Team | Made up of developers only                                                                       | Scrum Team    | Cross-functional team consisting of developers, testers, security, business analysts, operations, etc.                                                                              |
+
+## Agile Tenets
+
