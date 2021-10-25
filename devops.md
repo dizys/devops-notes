@@ -13,7 +13,7 @@ To do this we need:
 * An **application design** that does not require entire systems to be redeployed just to add a single function
 * A dynamic software-defined, **programmable platform** to continuously deploy onto
 
-### Traditional Waterfall Development
+## Traditional Waterfall Development
 
 Requirements -> Design -> Code -> Integration -> Test -> Deploy
 
@@ -25,11 +25,11 @@ In traditional waterfall development: 1. Each step ended when the next begins; 2
 * Because all of the teams worked separately, the development team was not always aware of operational roadblocks that might prevent the program from working as anticipated
 * The people the furthest from the code who knew the least about it were deploying it into production
 
-### Extreme Programming
+## Extreme Programming
 
 In 1996, Kent Beck introduced Extreme Programming based on an interactive approach to software development. It was intended to improve software quality and responsiveness to changing customer requirements. It was one of the first agile methods.
 
-### Agile Manifesto
+## Agile Manifesto
 
 In 2001, seventeen software developers met at a resort in Snowbird, Utah to discuss these lightweight development methods. Together, they published the Manifesto for Agile Software Development.
 
@@ -40,7 +40,7 @@ In 2001, seventeen software developers met at a resort in Snowbird, Utah to disc
 
 That is, while there is value in the items on the right, we value the items on the left more.
 
-### Agile Development
+## Agile Development
 
 Cycle: ... -> Requirements -> Plan -> Design -> Develop -> Release -> Track & Monitor -> ...
 
@@ -48,11 +48,11 @@ Cycle: ... -> Requirements -> Plan -> Design -> Develop -> Release -> Track & Mo
 * It advocates **adaptive planning**, evolutionary development, early delivery, and **continual improvement**
 * It encourages rapid and flexible **response to change**
 
-#### **Agile Dilemma / Why Agile alone not good enough?**
+### **Agile Dilemma / Why Agile alone not good enough?**
 
 While Agile improved the speed and accuracy of software for developers, it did nothing for operations. Many development team just got frustrated by ops not being able to deliver at the speed of development.
 
-#### How Agile are your teams?
+### How Agile are your teams?
 
 * [x] Small team: 5 ± 2
 * [x] Dedicated
