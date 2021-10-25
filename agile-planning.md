@@ -254,3 +254,21 @@ A Japanese manufacturing system in which the supply of components is regulated t
 A Sprint is one iteration through the design, code, test, deploy cycle. Usually 2 weeks in duration but could be shorter or longer (but not too much longer... remember working in "small batches").
 
 Every Sprint should have a Goal this way everyone knows what goal they are working towards
+
+## Steps in the Scrum Process
+
+![Steps in the Scrum Process](<.gitbook/assets/image (2).png>)
+
+## The 5 Scrum Meetings
+
+![The 5 Scum Meetings](.gitbook/assets/image.png)
+
+## Agile Concepts and GitHub
+
+* Sprint -> Milestone
+* Epics -> Epics
+* User Stories -> GitHub Issues
+* Tasks -> Markdown Checklist (`- [ ]`)
+* Product backlog -> Open issues without a Milestone
+* Sprint backlog --> Issues with a Milestone
+

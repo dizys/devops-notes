@@ -51,7 +51,7 @@ description: Social Coding with GitHub
 * In addition, open source software has blossomed because some of the Git repositories host open source code for free.
 * Most significantly, Git and code repositories have facilitated the DevOps methodology that is so impactful to software development.
 
-![Git Command Workflow](<.gitbook/assets/image (2).png>)
+![Git Command Workflow](<.gitbook/assets/image (2) (1).png>)
 
 ## What is Social Coding?
 
