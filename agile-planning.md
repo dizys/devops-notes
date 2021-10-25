@@ -6,46 +6,65 @@ description: Agile Development and Planning
 
 ## Problem with Tradintional Waterfall Development
 
-{% hint style="info" %}
-Requirements -> Design -> Code -> Intergration -> Test -> Deploy
+{% hint style="info" %} Requirements -> Design -> Code -> Intergration -> Test
+-> Deploy
 
 - Each step ended when the next begins
 - Mistakes found in the later stages are more expensive to fix
 - No provisions for changing requirements
-- No idea if it works until the end
-  {% endhint %}
+- No idea if it works until the end {% endhint %}
 
 - There was usually a long time between software releases
-- Because all of the teams worked separately, the development team was not always aware of operational roadblocks that might prevent the program from working as anticipated
-- The people the furthest from the code who knew the least about it were deploying it into production
+- Because all of the teams worked separately, the development team was not
+  always aware of operational roadblocks that might prevent the program from
+  working as anticipated
+- The people the furthest from the code who knew the least about it were
+  deploying it into production
 
 ## 12 Principles Behind the Agile Manifesto
 
-1. Our highest priority is to satisfy the customer through early and **continuous delivery** of valuable software.
-2. **Welcome changing requirements**, even late in development. Agile processes harness change for the customer's competitive advantage.
-3. Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the **shorter timescale**.
-4. Business people and developers must **work together** daily throughout the project.
-5. Build projects around **motivated individuals**. Give them the environment and support they need, and **trust** them to get the job done.
-6. The most efficient and effective method of conveying information to and within a development team is **face-to-face** conversation.
+1. Our highest priority is to satisfy the customer through early and
+   **continuous delivery** of valuable software.
+2. **Welcome changing requirements**, even late in development. Agile processes
+   harness change for the customer's competitive advantage.
+3. Deliver working software frequently, from a couple of weeks to a couple of
+   months, with a preference to the **shorter timescale**.
+4. Business people and developers must **work together** daily throughout the
+   project.
+5. Build projects around **motivated individuals**. Give them the environment
+   and support they need, and **trust** them to get the job done.
+6. The most efficient and effective method of conveying information to and
+   within a development team is **face-to-face** conversation.
 7. **Working software** is the primary measure of progress.
-8. Agile processes promote **sustainable development**. The sponsors, developers, and users should be able to maintain a constant pace indefinitely.
-9. Continuous attention to **technical excellence** and good design enhances agility.
+8. Agile processes promote **sustainable development**. The sponsors,
+   developers, and users should be able to maintain a constant pace
+   indefinitely.
+9. Continuous attention to **technical excellence** and good design enhances
+   agility.
 10. Simplicity: the art of maximizing the amount of work not done is essential.
-11. The best architectures, requirements, and designs emerge from **self-organizing teams**.
-12. At regular intervals, the **team reflects** on how to become more effective, then tunes and adjusts its behavior accordingly.
+11. The best architectures, requirements, and designs emerge from
+    **self-organizing teams**.
+12. At regular intervals, the **team reflects** on how to become more effective,
+    then tunes and adjusts its behavior accordingly.
 
 ## What Agile is not...
 
-- Agile is not a new version of a waterfall SDLC, where you do legacy development in sprints
-- Agile is not just the development team in each sprint, like you do in waterfall development.
-- The Agile Manifesto does not include the term “agile project management” (and so there are no "project managers" in Agile)
+- Agile is not a new version of a waterfall SDLC, where you do legacy
+  development in sprints
+- Agile is not just the development team in each sprint, like you do in
+  waterfall development.
+- The Agile Manifesto does not include the term “agile project management” (and
+  so there are no "project managers" in Agile)
 
 ## Agile Development
 
-Cycle: ... -> Requirements -> Plan -> Design -> Develop -> Release -> Track & Monitor -> ...
+Cycle: ... -> Requirements -> Plan -> Design -> Develop -> Release -> Track &
+Monitor -> ...
 
-- Requirements and solutions evolve through the collaborative effort of **self-organizing** and **cross-functional** teams and their customers
-- It advocates **adaptive planning**, evolutionary development, early delivery, and **continual improvement**
+- Requirements and solutions evolve through the collaborative effort of
+  **self-organizing** and **cross-functional** teams and their customers
+- It advocates **adaptive planning**, evolutionary development, early delivery,
+  and **continual improvement**
 - It encourages rapid and flexible **response to change**
 
 ## Agile and Scrum
@@ -57,15 +76,19 @@ Cycle: ... -> Requirements -> Plan -> Design -> Develop -> Release -> Track & Mo
 
 ### Scrum
 
-- A management **framework** for incremental product development using one or more small cross-functional, self-organizing teams
+- A management **framework** for incremental product development using one or
+  more small cross-functional, self-organizing teams
 - Provides a **structure** of roles, meetings, rules, and artifacts
-- Uses fixed-length **iterations**, called Sprints, which are typically two weeks long: Scrum teams attempt to build a potentially shippable (properly tested) product increment every iteration
+- Uses fixed-length **iterations**, called Sprints, which are typically two
+  weeks long: Scrum teams attempt to build a potentially shippable (properly
+  tested) product increment every iteration
 
 ### Ingredients of Scrum
 
 - Roles: Product Owner + Development Team + Scrum Master
 - Artifacts: Product Backlog + Sprint Backlog + Done Increment
-- Events: Sprint Planning + Daily Scrum + Sprint Review + Sprint Retrospective + Sprint
+- Events: Sprint Planning + Daily Scrum + Sprint Review + Sprint Retrospective +
+  Sprint
 
 ### Benefits of Scrum
 
@@ -93,7 +116,8 @@ Organizations that have adopted agile Scrum have experienced:
 - Represents the stakeholder interests
 - Responsible for **product vision**
 - Final arbiter of requirements questions
-- Constantly **re-prioritizes** the Product Backlog, adjusting any expectations such as release plans
+- Constantly **re-prioritizes** the Product Backlog, adjusting any expectations
+  such as release plans
 - Accepts or rejects each product increment
 - Decides whether to ship
 - Decides whether to continue development
@@ -103,25 +127,34 @@ Organizations that have adopted agile Scrum have experienced:
 
 - Facilitates the Scrum process
 - Creates an environment conducive to team self-organization
-- **Shields the team** from external interference and distractions to keep it "in the zone"
+- **Shields the team** from external interference and distractions to keep it
+  "in the zone"
 - Helps **resolve impediments**
 - Enforces Sprint timeboxes
 - Captures empirical data to adjust forecasts
-- Has no management authority over the team (anyone with authority over the team is by definition not its ScrumMaster)
+- Has no management authority over the team (anyone with authority over the team
+  is by definition not its ScrumMaster)
 
 #### Scrum Team
 
-- **Cross-functional** (e.g., includes members with testing skills, and often others not traditionally called developers: business analysts, domain experts, etc.)
+- **Cross-functional** (e.g., includes members with testing skills, and often
+  others not traditionally called developers: business analysts, domain experts,
+  etc.)
 - Self-organizing / **self-managing**, without externally assigned roles
 - Consists of 5 ± 2 **dedicated co-located** collaborative members
-  - Most successful when located in one team room, particularly for the first few Sprints
-  - Most successful with long-term, full-time membership. Scrum moves work to a flexible learning team and avoids moving people or splitting them between teams.
+  - Most successful when located in one team room, particularly for the first
+    few Sprints
+  - Most successful with long-term, full-time membership. Scrum moves work to a
+    flexible learning team and avoids moving people or splitting them between
+    teams.
 - **Negotiates commitments** with the Product Owner — **one Sprint at a time**
 - Has **autonomy** regarding how to reach commitments
 
 ### The Agile Dilemma
 
-While Agile improved the speed and accuracy of software for developers, it did nothing for operations. Many development teams just got frustrated by ops not being able to deliver at the speed of development.
+While Agile improved the speed and accuracy of software for developers, it did
+nothing for operations. Many development teams just got frustrated by ops not
+being able to deliver at the speed of development.
 
 ### Goal of Agile and DevOps are Aligned
 
@@ -164,22 +197,27 @@ Agile takes ideas from Lean Manufacturing and Extreme Programming (XP)
 
 - Working in Small Batches
 - Creating Minimum Viable Products (MVP)
-- Using Behavior Driven Design (BDD) to make sure that you are building the right&#x20;
-- Practicing Test Driven Development (TDD) to make sure that you are building the thing right
+- Using Behavior Driven Design (BDD) to make sure that you are building the
+  right&#x20;
+- Practicing Test Driven Development (TDD) to make sure that you are building
+  the thing right
 - Pair Programming to improve code quality and knowledge saturation
 
 ## Minimum Viable Product
 
 - MVP is NOT the result of "Phase 1" of a project
-- It IS the cheapest/easiest thing you can build to start testing your **value hypothesis** and **learning**
+- It IS the cheapest/easiest thing you can build to start testing your **value
+  hypothesis** and **learning**
 - The former focuses on delivery, while the latter focuses on learning
 - At the end of each MVP you decide whether to pivot or persevere
 
 ### What is Agile Development?
 
-- Agile is an _iterative_ approach to software development consistent with the Agile Manifesto
+- Agile is an _iterative_ approach to software development consistent with the
+  Agile Manifesto
 - Emphasizing flexibility, interactivity, and a high level of transparency
-- Using **small**, **co-located**, **cross-functional**, **self-organizing** teams.
+- Using **small**, **co-located**, **cross-functional**, **self-organizing**
+  teams.
 
 ## Spotify: Case Study
 
@@ -201,8 +239,10 @@ Agile takes ideas from Lean Manufacturing and Extreme Programming (XP)
 
 ### Spotify’s Changes to Scrum
 
-- Renamed **Scrum Master** to **Agile Coach**: Because they wanted servant leaders vs process masters
-- Renamed **Scrum Team** to **Squad**: Because their key driving force is Autonomy
+- Renamed **Scrum Master** to **Agile Coach**: Because they wanted servant
+  leaders vs process masters
+- Renamed **Scrum Team** to **Squad**: Because their key driving force is
+  Autonomy
 
 ## Why is Autonomy Important?
 
@@ -219,15 +259,27 @@ Agile takes ideas from Lean Manufacturing and Extreme Programming (XP)
 
 ## What is Kanban?
 
-A Japanese manufacturing system in which the supply of components is regulated through the use of an instruction card sent along the production line. It is an instruction card used in a kanban system.
+A Japanese manufacturing system in which the supply of components is regulated
+through the use of an instruction card sent along the production line. It is an
+instruction card used in a kanban system.
 
 ### Core Principles of Kanban
 
-- **Visualize the workflow**: You cannot manage what you cannot see. By making all the work visible, including blockers and queues, you can identify issues early on and improve collaboration.&#x20;
-- **Limit work in progress (WIP)**: Work in progress limits (WIP limits) determine the minimum and maximum amount of work for each column on the board or for each workflow.&#x20;
-- **Manage and enhance the flow**: Ideally, you want a fast, smooth flow, which shows that the team is creating value quickly. The team should analyze problems in the flow then implement changes.&#x20;
-- **Make process policies explicit**: Everyone needs to understand how things work or what “done” really means. You can modify the board to make these processes more clear; for example, you could redesign it to specify how the work should flow.
-- **Continuously improve**: Teams measure their effectiveness by tracking flow, measuring cycle time, and increasing quality of work.
+- **Visualize the workflow**: You cannot manage what you cannot see. By making
+  all the work visible, including blockers and queues, you can identify issues
+  early on and improve collaboration.&#x20;
+- **Limit work in progress (WIP)**: Work in progress limits (WIP limits)
+  determine the minimum and maximum amount of work for each column on the board
+  or for each workflow.&#x20;
+- **Manage and enhance the flow**: Ideally, you want a fast, smooth flow, which
+  shows that the team is creating value quickly. The team should analyze
+  problems in the flow then implement changes.&#x20;
+- **Make process policies explicit**: Everyone needs to understand how things
+  work or what “done” really means. You can modify the board to make these
+  processes more clear; for example, you could redesign it to specify how the
+  work should flow.
+- **Continuously improve**: Teams measure their effectiveness by tracking flow,
+  measuring cycle time, and increasing quality of work.
 
 ### Scrum vs Kanban
 
@@ -241,19 +293,32 @@ A Japanese manufacturing system in which the supply of components is regulated t
 
 ## Default ZenHub Pipelines
 
-- **New Issues** is the landing point for new Issues. Anyone can create new Issues. They should be triaged weekly.
-- **Icebox** represents items that are a low priority. This keeps them out of the way of current work while not forgetting about them entirely.
-- **Product** Backlog represents an ordered list of groomed stories ready too be added to the next sprint.
-- **Sprint Backlog** is a prioritized backlog of items ready for development. The higher an issue is on this list, the higher the priority. Higher-priority items will typically have more in-depth information.
-- **In Progress**: This is what is actively being worked on. Each Issue in this pipeline should have an assigned owner who is responsible for its completion. This communicates to the rest of the team that the task is underway.
-- **Review/QA: **Issues that are open to the team for review and testing. Usually this means the code is deployed and ready for further examination.
-- **Done**: Issues in this pipeline need no further work and are ready to be closed. Having a good ‘Definition of Done’ agreed upon before work starts on an Issue is very helpful here!
+- **New Issues** is the landing point for new Issues. Anyone can create new
+  Issues. They should be triaged weekly.
+- **Icebox** represents items that are a low priority. This keeps them out of
+  the way of current work while not forgetting about them entirely.
+- **Product** Backlog represents an ordered list of groomed stories ready too be
+  added to the next sprint.
+- **Sprint Backlog** is a prioritized backlog of items ready for development.
+  The higher an issue is on this list, the higher the priority. Higher-priority
+  items will typically have more in-depth information.
+- **In Progress**: This is what is actively being worked on. Each Issue in this
+  pipeline should have an assigned owner who is responsible for its completion.
+  This communicates to the rest of the team that the task is underway.
+- **Review/QA: **Issues that are open to the team for review and testing.
+  Usually this means the code is deployed and ready for further examination.
+- **Done**: Issues in this pipeline need no further work and are ready to be
+  closed. Having a good ‘Definition of Done’ agreed upon before work starts on
+  an Issue is very helpful here!
 
 ## Sprint
 
-A Sprint is one iteration through the design, code, test, deploy cycle. Usually 2 weeks in duration but could be shorter or longer (but not too much longer... remember working in "small batches").
+A Sprint is one iteration through the design, code, test, deploy cycle. Usually
+2 weeks in duration but could be shorter or longer (but not too much longer...
+remember working in "small batches").
 
-Every Sprint should have a Goal this way everyone knows what goal they are working towards
+Every Sprint should have a Goal this way everyone knows what goal they are
+working towards
 
 ## Steps in the Scrum Process
 
@@ -265,10 +330,16 @@ Every Sprint should have a Goal this way everyone knows what goal they are worki
 
 ### Backlog Refinement Meeting
 
-- Product Owner sorts the Product Backlog in Priority Order to meet business objectives
-- The team may estimate the amount of effort they would expend to complete items in the Product Backlog and provides other technical information to help the Product Owner prioritize them
-- Large vague items are split and clarified, considering both business and technical concerns
-  - Sometimes a subset of the team, in conjunction with the Product Owner and other stakeholders, will compose and split Product Backlog Items before involving the entire team in estimation
+- Product Owner sorts the Product Backlog in Priority Order to meet business
+  objectives
+- The team may estimate the amount of effort they would expend to complete items
+  in the Product Backlog and provides other technical information to help the
+  Product Owner prioritize them
+- Large vague items are split and clarified, considering both business and
+  technical concerns
+  - Sometimes a subset of the team, in conjunction with the Product Owner and
+    other stakeholders, will compose and split Product Backlog Items before
+    involving the entire team in estimation
 
 ### Mechanics of Backlog Refinement
 
@@ -277,12 +348,15 @@ Every Sprint should have a Goal this way everyone knows what goal they are worki
   - Move them into the ranked Backlog if they will be worked on soon
   - Move them into the Ice Box if they are a good idea but not now
   - Reject them if they are not where you want to go
-- Groom the Backlog by ranking the Stories in order of importance and making sure the story contains enough information for a developer to start working on it
+- Groom the Backlog by ranking the Stories in order of importance and making
+  sure the story contains enough information for a developer to start working on
+  it
 
 ### Grooming the Backlog
 
 - Make sure that all Issues are groomed and stories are complete
-- Keep the Backlog ranked by priority so that the important Issues are always on top: The priority is determined by the "**So that**" benefit statement
+- Keep the Backlog ranked by priority so that the important Issues are always on
+  top: The priority is determined by the "**So that**" benefit statement
 - Size the Issues if possible or leave to Sprint Planning
 
 ## Agile Concepts and GitHub
@@ -296,8 +370,10 @@ Every Sprint should have a Goal this way everyone knows what goal they are worki
 
 ## Fixed Releases are deprecated
 
-- **Raionale**: risk == number of engineering hours since last deployement. (i.e., less hours == less risk)
-- **Bottom line**: Feature deployment should be a **non-event** that happens all the time.
+- **Raionale**: risk == number of engineering hours since last deployement.
+  (i.e., less hours == less risk)
+- **Bottom line**: Feature deployment should be a **non-event** that happens all
+  the time.
 
 ## GitHub Issues
 
@@ -310,12 +386,15 @@ Issues are the way GitHub tracks things to do.
 
 ## What are User Stories?
 
-A user story represents a small piece of business value that a team can deliver in an iteration.
+A user story represents a small piece of business value that a team can deliver
+in an iteration.
 
-While traditional requirements (like use cases) try to be as detailed as possible, a user story is defined incrementally, in three stages:
+While traditional requirements (like use cases) try to be as detailed as
+possible, a user story is defined incrementally, in three stages:
 
 1. The brief description of the need
-2. The conversations that happen during backlog grooming and iteration planning to solidify the details
+2. The conversations that happen during backlog grooming and iteration planning
+   to solidify the details
 3. The tests that confirm the story's satisfactory completion
 
 ### INVEST acronym criteria
@@ -351,8 +430,8 @@ I like to include the following in each User Story:
 
 ### Hypothesis Driven Development
 
-Hypotheses pair a statement that asserts or predicts value with a testable condition that
-can be measured.
+Hypotheses pair a statement that asserts or predicts value with a testable
+condition that can be measured.
 
 The typical form is as follows:
 
@@ -362,20 +441,26 @@ Will lead to <outcome>
 And this will be proven when <measurable condition>
 ```
 
-Where possible, the signal that is being measured should be an actionable metric and not a vanity metric
+Where possible, the signal that is being measured should be an actionable metric
+and not a vanity metric
 
 ## Technical Debt
 
-Technical debt is anything you need to do that doesn't involve creating a new feature. Technical debt builds up when you take shortcuts.
+Technical debt is anything you need to do that doesn't involve creating a new
+feature. Technical debt builds up when you take shortcuts.
 
-Examples of Technical Debt: Code refactoring, Setup and maintenance of environments, Changing technology like databases.
+Examples of Technical Debt: Code refactoring, Setup and maintenance of
+environments, Changing technology like databases.
 
 ## Sprint Planning
 
 Attendees: Product Owner, Scrum Master, Development Team
 
-- The Product Owner is responsible for declaring which Product Backlog Items are the most important to the business during Backlog Refinement.
-- The Development Team looks at the latest product Increment, projected velocity, and past performance. Based on the data, the Development Team forecast what can be achieved.
+- The Product Owner is responsible for declaring which Product Backlog Items are
+  the most important to the business during Backlog Refinement.
+- The Development Team looks at the latest product Increment, projected
+  velocity, and past performance. Based on the data, the Development Team
+  forecast what can be achieved.
 - The team Assigns work from the Product Backlog to the Sprint Milestone.
 - Plan to spend 4 hours for a 2 week sprint.
 
@@ -388,24 +473,36 @@ Attendees: Product Owner, Scrum Master, Development Team
 ### Sprint Planning Goals
 
 - Each Sprint should have a clearly defined Business Goal.
-- The Product Owner comes with a proposal of the Sprint Goal and Product Backlog Items supporting it.
-- The whole Scrum Team collaborates on crafting the Sprint Goal, so everybody understands why we are building the Increment.
+- The Product Owner comes with a proposal of the Sprint Goal and Product Backlog
+  Items supporting it.
+- The whole Scrum Team collaborates on crafting the Sprint Goal, so everybody
+  understands why we are building the Increment.
 
 ### Mechanics of Sprint Planning
 
-- Take Issues from the top of the ranked Backlog and assign them to the Sprint Milestone
-- Groom the Story by clarifying and assigning Story Points, Labels, and making sure the story contain enough information for a developer to start working on it
+- Take Issues from the top of the ranked Backlog and assign them to the Sprint
+  Milestone
+- Groom the Story by clarifying and assigning Story Points, Labels, and making
+  sure the story contain enough information for a developer to start working on
+  it
 - Stop adding Stories when your team’s Velocity is reached
 
 ### Team Velocity
 
-The number of Story Points a team can complete in a single Sprint. This will change over time as the team gets better at estimating and better at executing. The Velocity is unique to the team because the story point assignment is unique to the team
+The number of Story Points a team can complete in a single Sprint. This will
+change over time as the team gets better at estimating and better at executing.
+The Velocity is unique to the team because the story point assignment is unique
+to the team
 
 ### Story Points
 
-- Story Points acknowledge the fact that sizing using absolute time-to-complete is highly inaccurate so it uses an estimate of complexity
-- It is measurement of a feature’s size **relative** to other features usually expressed in T-Shirt sized (S, M, L, X) or Fibonacci numbers (1, 2, 3, 5, 8, 13, 21)
-- The important thing is to agree on "average" and evaluate from that (i.e., is it the same, larger, or smaller than average)
+- Story Points acknowledge the fact that sizing using absolute time-to-complete
+  is highly inaccurate so it uses an estimate of complexity
+- It is measurement of a feature’s size **relative** to other features usually
+  expressed in T-Shirt sized (S, M, L, X) or Fibonacci numbers (1, 2, 3, 5, 8,
+  13, 21)
+- The important thing is to agree on "average" and evaluate from that (i.e., is
+  it the same, larger, or smaller than average)
 
 ### A Story Point Measures...
 
@@ -413,15 +510,110 @@ Effort, Complexity and Uncertainty.
 
 ### What Size Should A User Story Be?
 
-- A Story should be small enough to be coded and tested within a single Sprint iteration — ideally just a few days
+- A Story should be small enough to be coded and tested within a single Sprint
+  iteration — ideally just a few days
 - When a Story is too large in scope it is considered to be an **Epic**
-- Backlog items tend to start as Epics when they are lower priority and less defined
-- For sprint planning, Epics should be broken down into smaller stories, but not so small that you have moved into detailed design.
+- Backlog items tend to start as Epics when they are lower priority and less
+  defined
+- For sprint planning, Epics should be broken down into smaller stories, but not
+  so small that you have moved into detailed design.
 
 ### Epics
 
-- Epics are Stories that are so big, they need to be broken up into smaller Stories
+- Epics are Stories that are so big, they need to be broken up into smaller
+  Stories
   - A single Story should be smaller than a Sprint
   - Epics are usually larger than a Sprint
 - Epics are a way of grouping Stories with a common goal together
 - Epics can be larger than a Milestone
+
+## Daily Standup
+
+Attendees: Scrum Master, Development Team, Product Owner (optional)
+
+- Occurs every day at the same time and place
+- Called a "standup" because everyone should remain standing during the meeting
+  to keep it short
+  - Timeboxed to 15 minutes
+  - Not a project status meeting — all status should be tabled for later
+    discussion
+- Each team member briefly reports on their work
+
+### Daily Standup Questions
+
+Each team member answers three questions:
+
+1. What did I accomplish the previous day?
+2. What will I work on today?
+3. What blockers or impediments are in my way?
+
+## Daily Execution
+
+- Take the next highest priority item from the Sprint Backlog
+- Assign it to yourself
+- Start working on it
+- No one should have more than one story assigned to them unless they are
+  blocked and want to start a second story while waiting
+- When you are finished, move the Story to the Done column
+
+## Milestones and Burn-downs
+
+**Milestones** can be created for your project, e.g. Sprint, Beta Drop, Demo,
+Release 1, etc.
+
+**Burn-down charts** can be used to measure your progress against a Milestone.
+
+### Burn-down
+
+The measurement of Story Points completed vs Story Points remaining for a given
+Sprint. Over time the Story Points remaining should go down, hence the name:
+Burndown.
+
+## Sprint Review / Playback
+
+Attendees: Product Owner, Scrum Master, Development Team, (optionally
+Stakeholders + Customers)
+
+- Live Demonstration of implemented Stories
+- Product Owner determines if done based on acceptance criteria and those
+  stories are Closed
+- Feedback gets converted into new Product Backlog Stories
+  - This is where iterative development allows the creation of products that
+    couldn’t have been specified up front in a plan-driven approach
+
+## Sprint Retrospective
+
+Attendees: Scrum Master, Development Team
+
+- Team reflects on their progress for the Sprint
+  - What went well? (keep doing)
+  - When did not go well? (stop doing)
+  - What should we change for the next Sprint?
+- This is critical for maintaining a healthy team
+
+## Vanity Metrics
+
+- Consider the total number of daily “hits” to your website is 10,000
+- Now what? (what does a "hit" represent?)
+  - Do you really know what actions you took in the past that drove those
+    visitors to you?
+  - Do you really know which actions to take next?
+  - In most cases, I don’t think it’s very helpful
+
+### Actionable Metric Examples
+
+- Reduce time-to-market for new features.
+- Increase overall availability of the product.
+- Reduce the time it takes to deploy a software release.
+- Increase the percentage of defects detected in testing before production
+  release.
+- Make more efficient use of hardware infrastructure.
+- Provide performance and user feedback to the product manager in a more timely
+  manner.
+
+### Top 4 Actionable Metric
+
+1. **Mean Lead Time**: How long does it take from idea to production?
+2. **Release Frequency**: How often can you deliver changes?
+3. **Change Failure Rate**: How often to changes fail?
+4. **Mean Time to Recovery (MTTR)**: How quickly can you recover from failure?
