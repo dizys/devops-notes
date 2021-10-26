@@ -35,7 +35,7 @@ description: Continuous Integration with Travis CI
 
 * The system should build commits to the current working version to verify that they integrate correctly
 * A common practice is to use automated Continuous Integration where a continuous integration server or daemon monitors the revision control system for changes, then automatically runs the build process
-* Once the code is built, all tests should run to confirm that it behaves as the developers expect it to behave (i.e, make the build self-testing)
+* Once the code is built, all tests should run to confirm that it behaves as the developers expect it to behave (i.e., make the build self-testing)
 
 ## Benefits of CI/CD
 
