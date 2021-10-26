@@ -305,7 +305,7 @@ instruction card used in a kanban system.
 - **In Progress**: This is what is actively being worked on. Each Issue in this
   pipeline should have an assigned owner who is responsible for its completion.
   This communicates to the rest of the team that the task is underway.
-- **Review/QA: **Issues that are open to the team for review and testing.
+- **Review/QA:** Issues that are open to the team for review and testing.
   Usually this means the code is deployed and ready for further examination.
 - **Done**: Issues in this pipeline need no further work and are ready to be
   closed. Having a good ‘Definition of Done’ agreed upon before work starts on
