@@ -8,4 +8,3 @@
 * [Cloud Native and Microservices](cloud-native-and-microservices.md)
 * [Test Driven Development](test-driven-development.md)
 * [Continuous Integration](continuous-integration.md)
-* [Test](test.md)
