@@ -370,7 +370,7 @@ working towards
 
 ## Fixed Releases are deprecated
 
-- **Raionale**: risk == number of engineering hours since last deployement.
+- **Rationale**: risk == number of engineering hours since last deployment.
   (i.e., less hours == less risk)
 - **Bottom line**: Feature deployment should be a **non-event** that happens all
   the time.

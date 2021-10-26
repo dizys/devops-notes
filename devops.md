@@ -25,7 +25,7 @@ In traditional waterfall development: 1. Each step ended when the next
 begins; 2. Mistakes found in the later stages are more expensive to fix; 3. No
 provisions for changing requirements
 
-**Problem with this approa**c**h:**
+**Problem with this approach:**
 
 - No provisions for changing requirements
 - Because all of the teams worked separately, the development team was not
