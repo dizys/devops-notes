@@ -97,6 +97,51 @@ Because we cut the training budget and didn't properly train our new developers.
 - It then looks for a folder under that called steps that contains the Python
   code to parse the Gherkin sentences in the feature files.
 
+Note: There is no relationship between feature files and step files. Behave
+loads all of the steps regardless of how many files they are contained in
+
+### Loading Test Data
+
+feature file:
+
+```feature
+Background:
+  Given a set of specific users
+    | name      | department |
+    | Barry     | Shipping   |
+    | Pudey     | Receiving  |
+    | Two-Lumps | Receiving  |
+
+Scenario: How many people in departments
+  When we count the number of people in each department
+  Then we will find two people in "Receiving"
+  But we will find one person in "Shipping"
+```
+
+step file:
+
+```python
+@given('a set of specific users')
+def step_impl(context):
+  for row in context.table:
+    users.append({
+      'name': row['name'],
+      'department': row['department']
+    })
+```
+
+### Variable Substitution
+
+- You can use variable substitution to make the steps more generic
+- This step can now be used to check for any message in a response
+- It’s a good idea to make steps as generic as possible for maximum reuse
+
+```python
+@then('I should see "{message}"')
+def step_impl(context, message):
+    assert message in str(context.resp.text)
+```
+
 ### Feature Definition
 
 08-Behavior-Driven-Development.pdf: P22
