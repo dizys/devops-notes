@@ -32,10 +32,10 @@ Security cannot be an afterthought in DevOps
 - Security teams must be **engaged early in the design process** to ensure
   ability to deploy continuously
 - DevOps Configuration Management
-- - **Standardized configurations** makes it easier to harden them
-- - Standardized configurations makes it easier to diagnose when a security
+  - **Standardized configurations** makes it easier to harden them
+  - Standardized configurations makes it easier to diagnose when a security
     incident is in progress
-- - Easier to ensure policies around secure configuration
+  - Easier to ensure policies around secure configuration
 - DevOps **Version Control** Tools: Enable easier rollback in case of issues
 - DevOps as a **Compliance** Enabler: Automation (Cookbooks / Playbooks) as
   evidence of compliance, as well as documentation of policy
@@ -45,10 +45,10 @@ Security cannot be an afterthought in DevOps
 - For security to be truly woven into DevOps, security tests (like all other
   tests) should be automated
 - Security tests you can automate:
-- - Functional Security Tests
-- - Non-functional Security tests against known weaknesses
-- - Security scanning of apps and infrastructure
-- - Security testing application logic
+  - Functional Security Tests
+  - Non-functional Security tests against known weaknesses
+  - Security scanning of apps and infrastructure
+  - Security testing application logic
 - Security test automation frameworks: BDD-security, Mittn, GauntIt
 - Open-sourced Cookbooks available for common security tools: Nessus, Nmap, SSH,
   openVPN, iptables, Duo 2FA
@@ -64,11 +64,11 @@ Testing
 - Examines all code or runtime binaries to support a thorough search for common
   vulnerabilities
 - Static Application Security Testing (SAST)
-- - highly effective at finding flaws, even in previously (manually) reviewed
+  - highly effective at finding flaws, even in previously (manually) reviewed
     code
-- - some tools have APIs for integration into the DevOps process, and don’t
+  - some tools have APIs for integration into the DevOps process, and don’t
     require “code complete”
-- - may require some time to fully scan code
+  - may require some time to fully scan code
 
 ### Dynamic Application Security Testing (DAST)
 
@@ -111,13 +111,13 @@ Testing
 - Identify out-of-date libraries
 - Identify libraries with known security vulnerabilities
 - OWASP Dependency Check:
-- - Open source scanner that catalogs open source components used in an
+  - Open source scanner that catalogs open source components used in an
     application
-- - Works for Java, .Net, Ruby (gem spec), PHP (composer), Node.js, and Python
-- - Integrates with common build tools and CI servers like Jenkins
-- - Reports on any components with known vulnerabilities reported in the NIST’s
+  - Works for Java, .Net, Ruby (gem spec), PHP (composer), Node.js, and Python
+  - Integrates with common build tools and CI servers like Jenkins
+  - Reports on any components with known vulnerabilities reported in the NIST’s
     National Vulnerability Database (NVD)
-- - Gets updates from NVD data feeds
+  - Gets updates from NVD data feeds
 
 ### Runtime Protection for Security in DevOps
 
@@ -175,10 +175,10 @@ prevalence and their relative exploitability, detectability, and impact
 - Works by using hostile data to trick the interpreter into executing unintended
   commands or accessing data without proper authorization
 - Prevention:
-- - A safe API which avoids the use of the interpreter entirely or provides a
+  - A safe API which avoids the use of the interpreter entirely or provides a
     parameterized interface
-- - Escape List or keywords or special characters to be blocked
-- - Keyword list needs to be kept updated
+  - Escape List or keywords or special characters to be blocked
+  - Keyword list needs to be kept updated
 
 #### Types of Injection
 
@@ -209,14 +209,14 @@ be executed by a web application
 ### OWASP #2: Broken Authentication and Session Management
 
 - Incorrectly/insufficiently implemented Authentication and Session Management
-- - User authentication credentials aren’t protected when stored using hashing
+  - User authentication credentials aren’t protected when stored using hashing
     or encryption
-- - Credentials can be guessed or overwritten through weak account management
+  - Credentials can be guessed or overwritten through weak account management
     functions (e.g., account creation, change password, recover password, weak
     session IDs)
-- - Session IDs are exposed in the URL
-- - Session IDs don’t timeout
-- - Passwords, session IDs, and other credentials are sent over unencrypted
+  - Session IDs are exposed in the URL
+  - Session IDs don’t timeout
+  - Passwords, session IDs, and other credentials are sent over unencrypted
     connections
 - Allows attackers to user identities by stealing passwords, keys, or session
   tokens
@@ -259,13 +259,13 @@ Recommendation: Scrub error messages, API calls
 - Due to older or poorly configured XML processors
 - External entity references within XML documents can be used to disclose
   internal files by using
-- - File URI handler
-- - Remote code execution
-- - Denial of Service attacks
+  - File URI handler
+  - Remote code execution
+  - Denial of Service attacks
 - Mitigation
-- - Avoid XML and use less complex data formats like JSON
-- - Patch or upgrade all XML processors and libraries in use by app or OS
-- - Disable XML External Entity processing in all XML parsers in the app
+  - Avoid XML and use less complex data formats like JSON
+  - Patch or upgrade all XML processors and libraries in use by app or OS
+  - Disable XML External Entity processing in all XML parsers in the app
 
 ### OWASP #5: Broken Access Control
 
@@ -309,13 +309,13 @@ App takes untrusted data and sends it to web browser without proper validation
 or escaping
 
 - XSS allows attackers to execute scripts in the victim’s browser
-- - Hijack user sessions
-- - Deface web sites
-- - Redirect user to malicious sites
+  - Hijack user sessions
+  - Deface web sites
+  - Redirect user to malicious sites
 - Typically prevented by:
-- - Looking for suspicious HTTP requests/keywords that can trigger scripting
+  - Looking for suspicious HTTP requests/keywords that can trigger scripting
     engine: Banned HTML tags and escape sequences
-- - Escape List or keywords or special characters to be blocked
+  - Escape List or keywords or special characters to be blocked
 
 ### OWASP #8: Insecure Deserialization
 
@@ -328,10 +328,10 @@ or escaping
 - Insecure Deserialization occurs when an app or API processes a request to
   deserialize tampered objects provided by attacker
 - Mitigation to avoid these attacks:
-- - Do not accept serialized objects from untrusted sources
-- - Integrity checks such as digital signatures to verify source and prevent
+  - Do not accept serialized objects from untrusted sources
+  - Integrity checks such as digital signatures to verify source and prevent
     tampering
-- - Enforcing strict type constraints on objects prior to deserialization
+  - Enforcing strict type constraints on objects prior to deserialization
 
 ### OWASP #9: Using Components with Known Vulnerabilities
 
@@ -339,11 +339,11 @@ or escaping
 - Vulnerabilities in such components can be exploited for a range of attacks,
   resulting in data loss or server takeover
 - Mitigation to avoid these risks:
-- - Identify all components and the versions you are using, including all
+  - Identify all components and the versions you are using, including all
     dependencies
-- - Monitor the security of these components in public databases, project
+  - Monitor the security of these components in public databases, project
     mailing lists, and security mailing lists
-- - Keep them up to date with patches and fixes
+  - Keep them up to date with patches and fixes
 
 ### OWASP #10: Insufficient Logging and Monitoring
 
@@ -353,12 +353,12 @@ for attacker to use a small exploit and launch a full-fledged attack
 Due to:
 
 - Lack of logging and monitoring:
-- - Logins and login failures are not logged
-- - No intrusion detection capabilities
+  - Logins and login failures are not logged
+  - No intrusion detection capabilities
 - Poorly implemented logging and monitoring:
-- - Logs are collected but stored locally and never aggregated
-- - Poorly implemented alerting thresholds
-- - Unclear log messages
+  - Logs are collected but stored locally and never aggregated
+  - Poorly implemented alerting thresholds
+  - Unclear log messages
 
 Mitigation to avoid these attacks:
 
