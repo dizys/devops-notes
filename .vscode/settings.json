@@ -8,5 +8,5 @@
   "files.eol": "\n",
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
-  "cSpell.words": ["microservice", "microservices"]
+  "cSpell.words": ["kubernetes", "microservice", "microservices"]
 }
