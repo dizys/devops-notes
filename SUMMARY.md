@@ -13,3 +13,4 @@
 * [Security](security.md)
 * [Swagger and OpenAPI](swagger-and-openapi.md)
 * [Kubernetes](kubernetes.md)
+* [Infrastructure as Code](infrastructure-as-code.md)
