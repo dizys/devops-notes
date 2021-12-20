@@ -1,71 +1,56 @@
 # Infrastructure as Code
 
-Describe your infrastructure in textual format and configure them using that
-description
+Describe your infrastructure in textual format and configure them using that description
 
-- Never perform system and software configurations manually
-- Use templates / scripts describing how to install / configure systems /devices
-  /software / users
-- Configuration Management Systems make this possible
+* Never perform system and software configurations manually
+* Use templates / scripts describing how to install / configure systems /devices /software / users
+* Configuration Management Systems make this possible
 
 ## Convergence
 
-- Rather than describing the steps needed to make a change, the language
-  describes the final state in which one wants to end up
-- The agent then ensures that the necessary steps are taken to end up in this
-  "policy compliant state"
-- Thus, configuration can be run again and again, whatever the initial state of
-  a system, and it will end up with a predictable result
+* Rather than describing the steps needed to make a change, the language describes the final state in which one wants to end up
+* The agent then ensures that the necessary steps are taken to end up in this "policy compliant state"
+* Thus, configuration can be run again and again, whatever the initial state of a system, and it will end up with a predictable result
 
 ## Agent vs Agent-less
 
-Advantages of Agent based
+Advantages of **Agent** based
 
-- Rich client can do more and run on a schedule
-- Low volume of network traffic
+* Rich client can do more and run on a schedule
+* Low volume of network traffic
 
-Advantages of Agent-less based
+Advantages of **Agent-less** based
 
-- Small memory footprint and support of rare systems
-- No need to run an agent all the time on each server
+* Small memory footprint and support of rare systems
+* No need to run an agent all the time on each server
 
 ## Ansible
 
 ### Ansible Design Principles
 
-- Have a dead simple setup process and a minimal learning curve
-- Manage machines very quickly and in parallel
-- Avoid custom-agents and additional open ports, be agentless by leveraging the
-  existing SSH daemon
-- Describe infrastructure in a language that is both machine and human friendly
-- Focus on security and easy auditability/review/rewriting of content
-- Manage new remote machines instantly, without bootstrapping any software
-- Allow module development in any dynamic language, not just Python
-- Be usable as non-root
-- Be the easiest IT automation system to use, ever
+* Have a dead simple setup process and a minimal learning curve
+* Manage machines very quickly and in parallel
+* Avoid custom-agents and additional open ports, be agentless by leveraging the existing SSH daemon
+* Describe infrastructure in a language that is both machine and human friendly
+* Focus on security and easy auditability/review/rewriting of content
+* Manage new remote machines instantly, without bootstrapping any software
+* Allow module development in any dynamic language, not just Python
+* Be usable as non-root
+* Be the easiest IT automation system to use, ever
 
 ### Ansible Terminology
 
-The following list contains a quick overview of the most relevant terms used by
-Ansible:
+The following list contains a quick overview of the most relevant terms used by Ansible:
 
-- **Control Node**: the machine where Ansible is installed, responsible for
-  running the provisioning on the servers you are managing.
-- **Inventory**: an INI file that contains information about the servers you are
-  managing.
-- **Playbook**: a YAML file containing a series of procedures that should be
-  automated.
-- **Task**: a block that defines a single procedure to be executed, e.g.:
-  install a package.
-- **Module**: a module typically abstracts a system task, like dealing with
-  packages or creating and changing files.
-- **Role**: a set of related playbooks, templates and other files, organized in
-  a pre-defined way to facilitate reuse and share.
-- **Play**: a provisioning executed from start to finish is called a play.
-- **Facts**: global variables containing information about the system, like
-  network interfaces or operating system.
-- **Handlers**: used to trigger service status changes, like restarting or
-  reloading a service.
+* **Control Node**: the machine where Ansible is installed, responsible for running the provisioning on the servers you are managing.
+* **Inventory**: an INI file that contains information about the servers you are managing.
+* **Playbook**: a YAML file containing a series of procedures that should be automated.
+* **Task**: a block that defines a single procedure to be executed, e.g.: install a package.
+* **Module**: a module typically abstracts a system task, like dealing with packages or creating and changing files.
+* **Role**: a set of related playbooks, templates and other files, organized in a pre-defined way to facilitate reuse and share.
+* **Play**: a provisioning executed from start to finish is called a play.
+* **Facts**: global variables containing information about the system, like network interfaces or operating system.
+* **Handlers**: used to trigger service status changes, like restarting or reloading a service.
 
 ### Ansible Components
 
@@ -79,11 +64,9 @@ Ansible:
 
 ### Inventory File
 
-- The inventory files tells Ansible what servers to act on
-- Ansible allow you to place servers into groups (e.g., webservers, dbservers)
-  and then make changes on entire groups of servers at the same time instead of
-  changing them one-by-one
-- Groups allow you to specify servers of the same type
+* The inventory files tells Ansible what servers to act on
+* Ansible allow you to place servers into groups (e.g., webservers, dbservers) and then make changes on entire groups of servers at the same time instead of changing them one-by-one
+* Groups allow you to specify servers of the same type
 
 ```
 web1 ansible_ssh_host=192.168.56.20
@@ -106,26 +89,23 @@ dbservers
 
 ## Playbooks
 
-- Ansible stores it’s instructions in files called "Playbooks"
-- Expressed in YAML language
-- Composed of one or more "plays" in a list
-- Allows for multi-machine deployment orchestration
+* Ansible stores it’s instructions in files called "Playbooks"
+* Expressed in YAML language
+* Composed of one or more "plays" in a list
+* Allows for multi-machine deployment orchestration
 
 ## Playbook — Tasks
 
-- Are executed in the order they are specified against all machines that match
-  the host pattern
-- May be included from other files
-- If a task fails, the remaining playbook are not executed for that host
-- Each task executes a module with specific options
-- Modules are idempotent in order to bring the system to a desired state
+* Are executed in the order they are specified against all machines that match the host pattern
+* May be included from other files
+* If a task fails, the remaining playbook are not executed for that host
+* Each task executes a module with specific options
+* Modules are idempotent in order to bring the system to a desired state
 
 ## Playbook — Handlers
 
-- Notifications may be triggered at the end of each block of tasks that modify
-  the remote system
-- Handlers are referred to by name and can perform operations like restarting
-  services that have had their configuration changed
+* Notifications may be triggered at the end of each block of tasks that modify the remote system
+* Handlers are referred to by name and can perform operations like restarting services that have had their configuration changed
 
 ```yaml
 tasks:
@@ -192,8 +172,7 @@ roles/
 
 ### Vagrant Integration
 
-Ansible is supported by Vagrant so that you can use the same Ansible Playbooks
-to configure your local VM and remote servers
+Ansible is supported by Vagrant so that you can use the same Ansible Playbooks to configure your local VM and remote servers
 
 ```ruby
   #
@@ -228,7 +207,7 @@ This will install Apache, MySQL, & PHP on Linux (LAMP)
 
 ### Example 2: Same LAMP STACK but better
 
-A better way would be to use the iteration of with_items
+A better way would be to use the iteration of with\_items
 
 ```yaml
 ######################################################################
